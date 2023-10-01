@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "description": "Recepient identifier.",
+  "proposedName": "Recepient identifier",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "CkhKIWnhub1AxXdywFIxP12RsAQhzelDATi8RNiv6yk=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "recepient-identifier",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:ethereum-provider": {},
+    "endowment:transaction-insight": {
+      "allowTransactionOrigin": false
+    },
+    "endowment:network-access": {}
+  },
+  "manifestVersion": "0.1"
+}
